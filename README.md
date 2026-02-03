@@ -39,6 +39,29 @@ The project utilizes an **Abstract Base Class** `clsPerson` to centralize common
 
 ---
 
+## 📸 System Preview
+
+### 📊 Overview & Management
+| Dashboard | Books Inventory | Authors List |
+|:---:|:---:|:---:|
+| ![Dashboard](screenshots/Dashboard.png) | ![Books](screenshots/Books.png) | ![Authors](screenshots/Authers.png) |
+
+### 🔄 Borrowing & Reservations
+| Borrowing Management | Borrowing Actions | Reservations |
+|:---:|:---:|:---:|
+| ![Borrowing](screenshots/BorrowingBooks.png) | ![Actions](screenshots/BorrowingBooksActions.png) | ![Reservation](screenshots/Reservation.png) |
+
+### 👥 Users, Employees & Security
+| Employee Directory | Permissions System | Customer Records |
+|:---:|:---:|:---:|
+| ![Employees](screenshots/Employees.png) | ![Permissions](screenshots/AddEmployeeWithPermissions.png) | ![Customers](screenshots/Customers.png) |
+
+### 💰 Fines & Logs
+| Fines Management | Reservation Actions |
+|:---:|:---:|
+| ![Fines](screenshots/FinesBooks.png) | ![Reservation Actions](screenshots/ReservationActions.png) |
+
+---
 ## ✨ Key Technical Features
 * **Bitwise Permissions:** Efficient access control for employees (e.g., `pBook`, `pBorrowing`, `pFines`).
 * **Mode-Based State Management:** Entities track their state (`AddMode` vs `UpdateMode`) for intelligent `Save()` operations.
