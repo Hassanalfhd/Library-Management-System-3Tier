@@ -41,10 +41,15 @@ The project utilizes an **Abstract Base Class** `clsPerson` to centralize common
 
 ## 📸 System Preview
 
-### 📊 Overview & Management
-| Dashboard | Books Inventory | Authors List |
+### 🔐 Authentication & Overview
+| Login Screen | Dashboard |
+|:---:|:---:|
+| ![Login](screenshots/Login.png) | ![Dashboard](screenshots/Dashboard.png) |
+
+### 📚 Catalog Management
+| Books Inventory | Authors List | Customer Records |
 |:---:|:---:|:---:|
-| ![Dashboard](screenshots/Dashboard.png) | ![Books](screenshots/Books.png) | ![Authors](screenshots/Authers.png) |
+| ![Books](screenshots/Books.png) | ![Authors](screenshots/Authers.png) | ![Customers](screenshots/Customers.png) |
 
 ### 🔄 Borrowing & Reservations
 | Borrowing Management | Borrowing Actions | Reservations |
