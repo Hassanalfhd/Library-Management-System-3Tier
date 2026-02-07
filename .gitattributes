@@ -1,0 +1,18 @@
+# توحيد نهايات الأسطر تلقائياً لجميع الملفات النصية
+* text=auto
+
+# تعريف الصور كملفات ثنائية لمنع تلفها أثناء الرفع
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.svg binary
+
+# إجبار ملفات البرمجة على استخدام تنسيق LF (للتوافق مع أنظمة Linux/GitHub)
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
