@@ -41,10 +41,15 @@ The project utilizes an **Abstract Base Class** `clsPerson` to centralize common
 
 ## 📸 System Preview
 
-### 📊 Overview & Management
-| Dashboard | Books Inventory | Authors List |
+### 🔐 Authentication & Overview
+| Login Screen | Dashboard |
+|:---:|:---:|
+| ![Login](screenshots/Login.png) | ![Dashboard](screenshots/Dashboard.png) |
+
+### 📚 Catalog Management
+| Books Inventory | Authors List | Customer Records |
 |:---:|:---:|:---:|
-| ![Dashboard](screenshots/Dashboard.png) | ![Books](screenshots/Books.png) | ![Authors](screenshots/Authers.png) |
+| ![Books](screenshots/Books.png) | ![Authors](screenshots/Authers.png) | ![Customers](screenshots/Customers.png) |
 
 ### 🔄 Borrowing & Reservations
 | Borrowing Management | Borrowing Actions | Reservations |
@@ -79,7 +84,7 @@ The project utilizes an **Abstract Base Class** `clsPerson` to centralize common
 ---
 
 ## 🚀 Installation & Setup
-1.  **Clone the repo:** `git clone https://github.com/YourUsername/Library-Management-System-3Tier.git`
+1.  **Clone the repo:** `git clone https://github.com/Hassanalfhd/Library-Management-System-3Tier.git`
 2.  **Database:** Run the `LibraryDB.sql` script in your SQL Server Management Studio (SSMS).
 3.  **Config:** Update the `ConnectionString` in the `App.config` or DAL layer.
 4.  **Run:** Open the `.sln` file in Visual Studio and press **F5**.
@@ -87,7 +92,6 @@ The project utilizes an **Abstract Base Class** `clsPerson` to centralize common
 ---
 
 ## 🚧 Roadmap (Upcoming Features)
-- [ ] **Advanced Dashboard:** Visual analytics for library statistics (Books, Active Borrows, Fines).
 - [ ] **Email Notifications:** Automatic reminders for overdue books.
 - [ ] **Exporting Reports:** Export data to Excel or PDF.
 

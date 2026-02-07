@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 # توحيد نهايات الأسطر تلقائياً لجميع الملفات النصية
 * text=auto
 
 # تعريف الصور كملفات ثنائية لمنع تلفها أثناء الرفع
+=======
+>>>>>>> c7ee49e0063840938ac6afdac95fe749634dda88
 *.png binary
 *.jpg binary
 *.jpeg binary
 *.gif binary
+<<<<<<< HEAD
 *.webp binary
 *.ico binary
 *.svg binary
@@ -16,3 +20,7 @@
 *.html text eol=lf
 *.json text eol=lf
 *.md text eol=lf
+=======
+*.pdf binary
+*.pptx binary
+>>>>>>> c7ee49e0063840938ac6afdac95fe749634dda88
